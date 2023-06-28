@@ -1,11 +1,12 @@
 <script setup lang="ts">
-
+import TopMenuBar from './components/TopMenuBar.vue';
 </script>
 
 <template>
-<v-btn>
-  Button
-</v-btn>
+  <v-app>
+    <TopMenuBar />
+    <router-view />
+  </v-app>
 </template>
 
 <style scoped>
